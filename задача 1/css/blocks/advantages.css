@@ -1,0 +1,45 @@
+.advantages {
+    border-left: 1px solid rgba(29, 37, 45, 0.3);
+    border-right: 1px solid rgba(29, 37, 45, 0.3);
+    margin: 120px auto;
+    width: 992px;
+    height: 130px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.advantages__item {
+    width: 310px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.advantages__number {
+    font-family: "IBM Plex Sans";
+    font-weight: 200;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #1D252D;
+    
+}
+
+.advantages__text {
+    font-family: "IBM Plex Sans";
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #1D252D;
+    width: 190px;
+}
+
+.advantages__item--accent {
+    background-color: #F2F3EE;
+    border-radius: 0 60px 0 60px;
+}

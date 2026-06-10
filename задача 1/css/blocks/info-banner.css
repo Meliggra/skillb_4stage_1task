@@ -1,0 +1,60 @@
+.info-banner{
+    background-image: url("../../images/banner-img.jpg");
+    width: 1230px;
+    height: 320px;
+    border-radius: 0 60px 0 60px;
+
+    display: flex;
+    align-items: center;
+    gap: 297px;
+}
+
+
+.info-banner__title {
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin: 136px 0 136px 90px;
+    color: #FFFFFF;
+
+}
+
+
+.info-banner__inner {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    gap: 30px;
+}
+
+.info-banner__text {
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+}
+
+.info-banner__link {
+    width: 220px;
+    height: 32px;
+    border-radius: 40px;
+    background-color: #D6D2C4;
+    color: #1D252D;
+
+
+    display: flex;
+    align-items: center;      
+    justify-content: center; 
+
+    font-family: "IBM Plex Sans", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    
+}
